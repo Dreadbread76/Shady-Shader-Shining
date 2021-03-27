@@ -7,10 +7,10 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shield
-  m_Shader: {fileID: -6465566751694194690, guid: b6f16d38c5b9cbc42a9d52ede546a127, type: 3}
+  m_Name: Fire
+  m_Shader: {fileID: -6465566751694194690, guid: e40a4e18b1a5ffa4c91dfd68d1724464, type: 3}
   m_ShaderKeywords: 
-  m_LightmapFlags: 4
+  m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -19,6 +19,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _SampleTexture2D_e285549081d04b48afc07b7beaa264d1_Texture_1:
+        m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -32,8 +36,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_2047b283eee74254b5db46a1b3490769: 0.6
-    - Vector1_7b05bce7aa484b4c922a640c0bab5037: 0.01
+    - Vector1_5f1f14e25fcb4311bad454dabfd111c5: 0.1
     m_Colors:
-    - Color_7c7dad5590f14fc2b9d9dee47fafc18e: {r: 0, g: 2.0903947, b: 28.51895, a: 1}
+    - Color_bbfbef5424a244ab8449a549ae2bb12e: {r: 29.508846, g: 2.3174486, b: 0, a: 1}
   m_BuildTextureStacks: []
